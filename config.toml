@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://particle.vercel.app"
 
-title = "A blog about lorem ipsum dolor sit amet"
+title = "Wellness Sanctuary Dental Clinic"
 description = "A blog about lorem ipsum dolor sit amet"
 
 # Whether to automatically compile all Sass files in the sass directory
