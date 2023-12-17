@@ -1,8 +1,8 @@
 # The URL the site will be built for
-base_url = "https://particle.vercel.app"
+base_url = "https://wellness-sanctuary.pages.dev"
 
 title = "Wellness Sanctuary Dental Clinic"
-description = "A blog about lorem ipsum dolor sit amet"
+description = "Wellness Sanctuary Dental Clinic"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -19,10 +19,10 @@ default_language = "en"
 
 [extra]
 # User settings
-username = "Anon Developer"
-user_description = "Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS."
-user_title = "Software Developer"
-email = "anon@anon.com"
+username = "Wellness Sanctuary"
+user_description = "I will remember that there is art to dental medicine as well as science, and that warmth, sympathy, and understanding may outweigh the surgeon's knife or the chemist's drug. I will prevent disease whenever I can, for prevention is preferable to cure. I will remember that I remain a member of society, with special obligations to all my fellow human beings, those sound of mind and body as well as the infirm. If I do not violate this oath, may I enjoy life and art, respected while I live and remembered with affection thereafter. May I always act so as to preserve the finest traditions of my calling and may I long experience the joy of healing those who seek my help."
+user_title = "By Dr. Milarosa Chua-Samson"
+email = "milarosasamson@gmail.com"
 twitter_username = "lorem_ipsum"
 github_username =  "lorem_ipsum"
 gplus_username =  "lorem_ipsum"
