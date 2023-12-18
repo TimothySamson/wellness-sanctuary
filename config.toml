@@ -20,8 +20,8 @@ default_language = "en"
 [extra]
 # User settings
 username = "Wellness Sanctuary"
-user_description = "I will remember that there is art to dental medicine as well as science, and that warmth, sympathy, and understanding may outweigh the surgeon's knife or the chemist's drug. I will prevent disease whenever I can, for prevention is preferable to cure. I will remember that I remain a member of society, with special obligations to all my fellow human beings, those sound of mind and body as well as the infirm. If I do not violate this oath, may I enjoy life and art, respected while I live and remembered with affection thereafter. May I always act so as to preserve the finest traditions of my calling and may I long experience the joy of healing those who seek my help."
-user_title = "By Dr. Milarosa Chua-Samson"
+user_description = "I will remember that there is art to dental medicine as well as science, and that warmth, sympathy, and understanding may outweigh the dental drill or the pharmacist's drug. I will prevent disease whenever I can, for prevention is preferable to cure. I will remember that I remain a member of society, with special obligations to all my fellow human beings, those sound of mind and body as well as the infirm. If I do not violate this oath, may I enjoy life and art, respected while I live and remembered with affection thereafter. May I always act so as to preserve the finest traditions of my calling and may I long experience the joy of healing those who seek my help."
+user_title = "Dr. Milarosa Chua-Samson"
 email = "milarosasamson@gmail.com"
 twitter_username = "lorem_ipsum"
 github_username =  "lorem_ipsum"
@@ -29,3 +29,20 @@ gplus_username =  "lorem_ipsum"
 
 # Google-analytics
 google_analytics.id = ""
+
+sanjuan_address = "191 Baron Tower, Wilson St, San Juan City"
+sanjuan_phone = "(0950) 701 1987"
+sanjuan_phone2 = "(0917) 873 2057"
+
+tagaytay_address = "Unit C-315 Cityland Tagaytay Prime Residences, Tagaytay-Calamba Road, Tagaytay City"
+tagaytay_phone = "(0950) 701 1987"
+tagaytay_phone2 = "(0917) 873 2057"
+
+paranaque_address = "37 Aguirre Avenue, BF Homes, Parañaque city"
+paranaque_phone = "(0906) 378 6351"
+
+binondo_address = "Lucky Chinatown Mall, 3rd floor, Wellness Sanctuary clinic, Reina Regente st, Binondo, Manila city"
+binondo_phone = "(0927) 346 3482"
+
+makati_address = "Room 203, 2nd Floor, Ansa II Building, 1076 Chino Roces St, Makati City"
+makati_phone = "(0927) 346 3490"

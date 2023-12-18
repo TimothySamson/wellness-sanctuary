@@ -1,24 +1,36 @@
 {% macro about() %}
+
+
  <div class="user-details">
-  <h1> Dr. Samson's Hippocratic Oath </h1>
+  <h1> Contact Information </h1>
+  <p> <i class="fa fa-phone"></i> 0917 873 2057</p>
+  <p> <i class="fa fa-envelope"></i>  milarosasamson@yahoo.com</p>
+
+  <div class="contact-header-icons">
+    <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/dentalandwellness/"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+ <div class="user-details">
+  <h1> Dr. Milarosa's Hippocratic Oath </h1>
   <p> {{ config.extra.user_description }} </p>
 </div>
-  <div class="user">
-    <div class="tech">
-      <h2>30 Years Dental Experience</h2>
-      <i class="devicon-react-original colored"></i>
-      <p>I started practicing dentistry in 1994. How times have changed!</p>
-    </div>
-    <div class="tech">
-      <h2>5 Locations in the Philippines</h2>
-      <i class="devicon-ssh-plain"></i>
-      <p>San Juan, Tagaytay, Binondo, Parañaque, Makati</p>
-    </div>
-    <div class="tech">
-      <h2>Implants and Orthodontic Services</h2>
-      <i class="devicon-sourcetree-plain colored"></i>
-      <p>General Dentistry and Orthodontics, Veneers, Surgery, Root Canal, Whitening, Smile Makeovers</p>
-    </div>
+<div class="user">
+  <div class="tech">
+    <h2>30 Years Dental Experience</h2>
+    <i class="devicon-react-original colored"></i>
+    <p>I started practicing dentistry in 1994. How times have changed!</p>
+  </div>
+  <div class="tech">
+    <h2>5 Locations in the Philippines</h2>
+    <i class="devicon-ssh-plain"></i>
+    <p>San Juan, Tagaytay, Binondo, Parañaque, Makati</p>
+  </div>
+  <div class="tech">
+    <h2> Orthodontic Services and General Dentistry</h2>
+    <i class="devicon-sourcetree-plain colored"></i>
+    <p>General Dentistry and Orthodontics, Veneers, Implants, Surgery, Root Canal, Whitening, Smile Makeovers</p>
+  </div>
 </div>
 {% endmacro about %}
 
@@ -26,30 +38,81 @@
 <div class="user-details">
   <h1> Main Locations</h1>
 </div>
+
 <div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ config.base_url ~ "/img/mountains.jpg" }}" />
+    <img alt="mountains" src="{{ config.base_url ~ "/img/barontower.jpg" }}" />
   </div>
   <div class="contents">
-    <h3> Project Title </h3>
+    <h3> San Juan </h3>
     <ul>
-      <li> Featured Skills</li>
+      <li> Reception: {{config.extra.sanjuan_phone}}</li>
+      <li> Dr. Mila: {{config.extra.sanjuan_phone2}}</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <p> {{ config.extra.sanjuan_address }}</p>
+    <p> Come visit our clinic in San Juan! Our dental and wellness clinic is located in the Baron Tower. There is a staircase going down by the right of the entrance of the Baron Tower </p>
+    <a class="project-link" href="https://www.waze.com/en/live-map/directions/baron-tower-wilson-san-juan?place=w.79298706.793249204.17260575&utm_campaign=default&utm_medium=lm_share_location&utm_source=waze_website">Waze</a>
   </div>
 </div>
+
+
+
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ config.base_url ~ "/img/skate.jpg" }}" />
+    <img alt="mountains" src="{{ config.base_url ~ "/img/taal.jpg" }}" />
   </div>
   <div class="contents-right">
-    <h3> Project Title </h3>
+    <h3> Tagaytay </h3>
     <ul>
-      <li> Featured Skills</li>
+      <li> Reception: {{config.extra.tagaytay_phone}}</li>
+      <li> Dr. Mila: {{config.extra.tagaytay_phone2}}</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <p> {{config.extra.tagaytay_address}} </p>
+    <a class="project-link" href="https://www.waze.com/en/live-map/directions/ph/calabarzon/tagaytay/cityland-tagaytay-prime-residences?place=ChIJs1CB-d95vTMRJnC7NwtxF84">Waze</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ config.base_url ~ "/img/flowers.jpg" }}" />
+  </div>
+  <div class="contents">
+    <h3> Parañaque </h3>
+    <ul>
+      <li>{{config.extra.paranaque_phone}}</li>
+    </ul>
+    <p>{{config.extra.paranaque_address}}</p>
+    <a class="project-link" href="https://www.waze.com/en/live-map/directions/ph/ncr/paranaque/37-aguirre-ave?place=ChIJf7DkwC7OlzMRLCGJJeG7-Dc">Waze</a>
+  </div>
+</div>
+
+
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="{{ config.base_url ~ "/img/chinatown.jpg" }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Binondo - Lucky Chinatown Mall </h3>
+    <ul>
+      <li>{{config.extra.binondo_phone}}</li>
+    </ul>
+    <p>{{config.extra.binondo_address}}</p>
+    <a class="project-link" href="https://www.waze.com/en/live-map/directions/lucky-chinatown-mall-reina-regente-842-manila?place=w.79298706.792790452.2138819">Waze</a>
+  </div>
+</div>
+
+
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ config.base_url ~ "/img/makati.jpg" }}" />
+  </div>
+  <div class="contents">
+    <h3> Makati </h3>
+    <ul>
+      <li>{{config.extra.makati_phone}}</li>
+    </ul>
+    <p>{{config.extra.makati_address}}</p>
+    <a class="project-link" href="https://www.waze.com/en/live-map/directions/ph/ncr/makati/ansa-ii-bldg?place=ChIJUxcPw6PJlzMRl3UATNd_msU">Waze</a>
   </div>
 </div>
 {% endmacro projects %}
