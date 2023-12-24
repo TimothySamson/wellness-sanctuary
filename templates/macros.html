@@ -5,6 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wellness-sanctuary.pages.dev">
+  <meta property="og:site_name" content="Dr Milarosa Chua Samson Wellness Sanctuary">
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="{{config.base_url ~ "img/preview.jpg" }}">
+  <meta name="description" content="Wellness Sanctuary & Orthodontics Clinic is here to provide you with exceptional dental care and personalized treatments. From routine check-ups to advanced cosmetic procedures, our experienced team offers a wide range of services to meet all your dental needs.">
+
   <title>{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | striptags | trim | truncate(length=160) }}{% else %}{{ config.description }}{% endif %}">
 
